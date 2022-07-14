@@ -33,3 +33,15 @@ console.log(data.length -1)
 const d=data[data.length-1];
 
 console.log(d)
+
+
+// Lopping Arrey Elements
+
+const fruits=["Bannna","Orange","Apple","Mango"];
+const felen=fruits.length;
+console.log(felen);
+let text="<ul></ul>";
+
+for(let i=0;i<felen;i++){
+    console.log(fruits[i])
+}
