@@ -56,3 +56,18 @@ fruit.forEach((r)=>{
     console.log(r)
 })
 
+
+
+// Arrey Methods PUSH || POP ||SHIFT || UNSHIFT
+
+
+
+const students=["Rony","ATIQ","GALIB","Ridoy"];
+
+// Adding New students in this Arrey
+students.push("Fuker Boy");
+students.pop();
+students.shift();
+students.unshift()
+console.log(students)
+
