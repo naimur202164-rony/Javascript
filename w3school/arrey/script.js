@@ -45,3 +45,14 @@ let text="<ul></ul>";
 for(let i=0;i<felen;i++){
     console.log(fruits[i])
 }
+
+
+// Using ForEach Methods in Javascripts
+
+const fruit=["Banna","Mengo","Apple","Tomato"];
+
+
+fruit.forEach((r)=>{
+    console.log(r)
+})
+
