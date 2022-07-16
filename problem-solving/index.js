@@ -34,7 +34,11 @@ for (let i=10;i<=30;i++){
 
 
 
+const letter=["a","b","c"];
 
+for(const x of letter){
+    console.log(x)
+}
 
 
 
