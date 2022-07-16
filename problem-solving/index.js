@@ -22,5 +22,19 @@ for(var i = 1; i <= 10; i++)
 
 for(let i=0;i<=10;i++){
     let x=i+i;
-    console.log(x)
+    // console.log(x)
 }
+
+
+
+// Calculate the sum of odd numbers greater than 10 and less than 30;
+for (let i=10;i<=30;i++){
+    console.log(i/2);
+}
+
+
+
+
+
+
+
