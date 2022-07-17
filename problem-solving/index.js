@@ -32,6 +32,7 @@ for (const x of letter) {
 
 //
 
+// 1
 // Write a function that takes a string as argument
 // Extract the last 3 characters from the string
 // Return the result
@@ -43,6 +44,7 @@ function myFunction(str) {
 
 // console.log(myFunction("naimurrrrr"));
 
+// 2
 // Write a function that takes a string (a) and a number (n) as argument
 // Return the nth character of 'a'
 function string(a, n) {
@@ -55,12 +57,24 @@ let n = "rony";
 
 // console.log(n[0])
 
+// 3
 // Write a function that takes a value as argument
 // Return the type of the value
 function func1(a) {
-  return typeof(a)
+  return typeof a;
+}
+
+// console.log(func1(1))
+
+// 4
+
+// Write a function that takes a string (a) as argument
+// Remove the last 3 characters of a
+// Return the result
+function my(a) {
+  return  a.substr(0,a.length-3)
 }
 
 
-console.log(func1(1))
 
+console.log(my("naimurr"))
