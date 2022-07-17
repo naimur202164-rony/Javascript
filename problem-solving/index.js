@@ -72,9 +72,26 @@ function func1(a) {
 // Remove the last 3 characters of a
 // Return the result
 function my(a) {
-  return  a.substr(0,a.length-3)
+  return a.substr(0, a.length - 3);
 }
 
+// console.log(my("naimurr"))
+
+// Problem-5
+// Write a function that takes two values, say a and b, as arguments
+// Return true if the two values are equal and of the same type
+function problem5(a, b) {
+  let say;
+
+  if(a===b){
+    console.log(say=true)
+  }else{
+    console.log(say=false)
+  }
+  return say;
+}
+
+problem5(2,2)
 
 
-console.log(my("naimurr"))
+
