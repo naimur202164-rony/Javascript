@@ -104,19 +104,32 @@ function problem6(a) {
 
 // console.log(problem6("naimur"))
 
-
-
 // Problem-7
 // Write a function that takes a string (a) as argument
 // Remove the first 3 characters of a
 // Return the result
 function prblem7(a) {
-  return a.slice(0,-a.length-3)
+  return a.slice(0, -a.length - 3);
 }
 
-
-let h="naimur";
+let h = "naimur";
 // console.log(h.slice(3));
 
-
 // console.log(prblem7("Hello0"))
+
+
+
+
+
+
+
+// Problem-8
+// Write a function that takes a string (a) as argument
+// Get the first 3 characters of a
+// Return the result
+function problem8(a) {
+  return a.slice(0,3)
+}
+
+// console.log(problem8("naimur"))
+
