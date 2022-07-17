@@ -83,15 +83,26 @@ function my(a) {
 function problem5(a, b) {
   let say;
 
-  if(a===b){
-    console.log(say=true)
-  }else{
-    console.log(say=false)
+  if (a === b) {
+    console.log((say = true));
+  } else {
+    console.log((say = false));
   }
   return say;
 }
 
-problem5(2,2)
+// problem5(2,2)
+
+// Problem-6
+
+// Write a function that takes a string (a) as argument
+// Extract the first half a
+// Return the result
+function problem6(a) {
+  return a.slice(0,a.length/2)
+}
+
+// console.log(problem6("naimur"))
 
 
 
