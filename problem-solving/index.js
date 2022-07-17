@@ -38,7 +38,22 @@ for (const x of letter) {
 // array.slice(start, end)
 
 function myFunction(str) {
-  return str.slice(-3)
+  return str.slice(-3);
 }
 
-// console.log(myFunction("naimurrrrr"))
+// console.log(myFunction("naimurrrrr"));
+
+// Write a function that takes a string (a) and a number (n) as argument
+// Return the nth character of 'a'
+function string(a, n) {
+  return a[n-1]
+}
+
+// console.log(string("naimur",1));
+
+
+let n="rony";
+
+// console.log(n[0])
+
+
