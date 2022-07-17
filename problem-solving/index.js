@@ -46,14 +46,21 @@ function myFunction(str) {
 // Write a function that takes a string (a) and a number (n) as argument
 // Return the nth character of 'a'
 function string(a, n) {
-  return a[n-1]
+  return a[n - 1];
 }
 
 // console.log(string("naimur",1));
 
-
-let n="rony";
+let n = "rony";
 
 // console.log(n[0])
 
+// Write a function that takes a value as argument
+// Return the type of the value
+function func1(a) {
+  return typeof(a)
+}
+
+
+console.log(func1(1))
 
