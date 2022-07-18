@@ -117,19 +117,48 @@ let h = "naimur";
 
 // console.log(prblem7("Hello0"))
 
-
-
-
-
-
-
 // Problem-8
 // Write a function that takes a string (a) as argument
 // Get the first 3 characters of a
 // Return the result
 function problem8(a) {
-  return a.slice(0,3)
+  return a.slice(0, 3);
 }
 
 // console.log(problem8("naimur"))
 
+// problem-9
+// Write a function that takes two numbers (a and b) as argument
+// Return b percent of a
+function problem9(a, b) {
+  var c = (parseFloat(a) * parseFloat(b)) / 100;
+  return parseFloat(c);
+}
+
+// console.log(problem9(10,1))
+
+
+
+
+
+
+
+
+
+// problem-10
+// Write a function that takes 6 values (a,b,c,d,e,f) as arguments
+// Sum a and b
+// Then substract by c
+// Then multiply by d and divide by e
+// Finally raise to the power of f and return the result
+// Tipp: mind the order
+function myFunction(a, b, c, d, e, f) {
+    let sum=a+b;
+    let sub=sum-c;
+    let mul=sub*d;
+    let div=mul/e;
+    let pow=Math.pow(div,f);
+    return pow
+}
+
+console.log(myFunction(6,5,4,3,2,1));
