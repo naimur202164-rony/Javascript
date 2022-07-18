@@ -137,14 +137,6 @@ function problem9(a, b) {
 
 // console.log(problem9(10,1))
 
-
-
-
-
-
-
-
-
 // problem-10
 // Write a function that takes 6 values (a,b,c,d,e,f) as arguments
 // Sum a and b
@@ -153,12 +145,36 @@ function problem9(a, b) {
 // Finally raise to the power of f and return the result
 // Tipp: mind the order
 function myFunction(a, b, c, d, e, f) {
-    let sum=a+b;
-    let sub=sum-c;
-    let mul=sub*d;
-    let div=mul/e;
-    let pow=Math.pow(div,f);
-    return pow
+  let sum = a + b;
+  let sub = sum - c;
+  let mul = sub * d;
+  let div = mul / e;
+  let pow = Math.pow(div, f);
+  return pow;
 }
 
-console.log(myFunction(6,5,4,3,2,1));
+// console.log(myFunction(6,5,4,3,2,1));
+
+// problem-11
+// Write a function that takes a number as argument
+// If the number is even, return true
+// Otherwise, return false
+function problem11(a) {
+  let num = a;
+
+  if (num % 2 == 0) {
+    return true;
+  } else {
+    return false;
+  };
+   return num;
+}
+
+// console.log(problem11(4))
+
+
+
+
+
+
+
