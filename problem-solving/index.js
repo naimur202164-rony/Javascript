@@ -166,15 +166,25 @@ function problem11(a) {
     return true;
   } else {
     return false;
-  };
-   return num;
+  }
+  return num;
+}
+// console.log(problem11(4));
+
+// problem-14;
+// Write a function that takes two strings (a and b) as arguments
+// Return the number of times a occurs in b
+function myFunction(a, b) {
+  return;
 }
 
-// console.log(problem11(4))
+
+
+let nam = "how many times does the character occur in this sentence?";
 
 
 
 
-
-
-
+for (let i = 0; i < nam.length; i++) {
+  console.log(nam[i]);
+}
