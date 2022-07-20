@@ -24,7 +24,6 @@ function example() {
   };
 }
 
-
 // var obj=example();
 
 // console.log(obj)
