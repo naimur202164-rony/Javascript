@@ -25,6 +25,6 @@ function example() {
 }
 
 
-var obj=example();
+// var obj=example();
 
-console.log(obj)
+// console.log(obj)
