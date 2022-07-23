@@ -11,3 +11,5 @@ console.log(Math.ceil(n));
 console.log(Math.round(n));
 
 console.log(Math.max(400,500));
+
+
