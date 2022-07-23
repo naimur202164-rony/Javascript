@@ -4,6 +4,6 @@
 
 var str = "Something";
 
-var str1=String();
+var str1 = String();
 
 console.log(str1);
