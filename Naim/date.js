@@ -8,3 +8,7 @@ console.log(date.getMonth());
 console.log(date.getHours())
 console.log(date.getMilliseconds());
 console.log(date.getTime())
+
+
+
+// 19 Numbers
