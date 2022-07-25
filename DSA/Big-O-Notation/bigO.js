@@ -13,6 +13,4 @@ const addupto = (n) => {
   return (n * (n + 1)) / 2;
 };
 
-
-
-console.log(addUpTo(10))
+console.log(addUpTo(10));

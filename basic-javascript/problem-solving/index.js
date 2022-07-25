@@ -178,13 +178,18 @@ function myFunction(a, b) {
   return;
 }
 
-
-
 let nam = "how many times does the character occur in this sentence?";
 
-
-
-
 for (let i = 0; i < nam.length; i++) {
-  console.log(nam[i]);
+  // console.log(nam[i]);
 }
+
+// Write a function that takes two strings (a and b) as arguments
+// If a contains b, append b to the beginning of a
+// If not, append it to the end
+// Return the concatenation
+function problem15(a, b) {
+  return a.concat(b)
+}
+
+console.log(problem15("rony","Hello "))
