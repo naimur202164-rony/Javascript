@@ -1,6 +1,6 @@
 const obb = {};
 
-console.log(typeof obj);
+// console.log(typeof obj);
 
 // Compareing Objects in Javascripts
 
@@ -20,9 +20,6 @@ const obbb = {
   x: 40,
   y: 60,
   z: 75,
-
-
 };
 
-
-console.log(obbb)
+console.log('x' in obbb);
