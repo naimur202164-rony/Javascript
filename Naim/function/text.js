@@ -3,7 +3,9 @@
 // console.log(date.getFullYear());
 
 function test(a, b, c) {
-  console.log(a, b, c);
+  console.log(JSON.stringify());
 }
 
-test(10, 2, 8);
+// test(10, 2, 8);
+
+// 64
