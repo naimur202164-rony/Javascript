@@ -23,3 +23,6 @@ const obbb = {
 };
 
 console.log('x' in obbb);
+
+
+
