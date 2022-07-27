@@ -6,4 +6,16 @@ function sqr(n) {
 
 
 
+
+
 console.log(sqr(2))
+
+
+
+var n=10;
+
+function change(){
+    
+}
+
+// 68
