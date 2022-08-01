@@ -1,7 +1,7 @@
-function sample(a, b) {
+function sample(a, b,cb) {
   var c = a + b;
   var d = a - b;
-  var result = sum(c, d);
+  var result = cb(c, d);
 
   return result
 }
