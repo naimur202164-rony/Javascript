@@ -20,7 +20,12 @@ let i=Number.MIN_VALUE;
 let x=[1,2,3]+[4,5,6];
 
 
-console.log(x)
+// console.log(x)
 
 
 
+
+
+
+console.log(5555555555555555555555)
+console.log(Number.MAX_SAFE_INTEGER);
