@@ -29,7 +29,15 @@ arr.sort(function (a, b) {
   }
 });
 
-arr.sort();
-perosn.sort();
-console.log(perosn);
-console.log(arr);
+// perosn.sort();
+// console.log(perosn);
+// console.log(arr);
+
+
+perosn.sort(function(a,b){
+    if(a.age>b.age){
+        return 1;
+    }
+})
+
+
