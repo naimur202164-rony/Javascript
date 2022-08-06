@@ -11,3 +11,6 @@ function add(a, b) {
 }
 
 print(multi(add(3, 5)));
+
+
+// 84

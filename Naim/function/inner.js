@@ -5,4 +5,4 @@ function something(greet, name) {
   sayHi();
 }
 
-something("Hello", "Naimur");
+// something("Hello", "Naimur");
