@@ -1,5 +1,16 @@
-console.log("Op");
+// Object Litaral
 
-console.log("HEllo WOrld");
+var rect = {
+  width: 100,
+  height: 50,
+  draw: function () {
+    console.log("I am a rectangle");
+    console.log("My width is " + this.width);
+    console.log("my height is " + this.height);
+  },
+};
 
-console.log("Hell")
+rect.draw();
+rect.height=100;
+
+rect.draw()
