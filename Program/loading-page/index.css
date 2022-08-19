@@ -1,0 +1,12 @@
+#loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: block;
+}
+
+.loading-image {
+  position: absolute;
+  z-index: 100;
+}
