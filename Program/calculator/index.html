@@ -12,14 +12,30 @@
     <p>2st Number</p>
     <input type="number" id="num2" />
 
-    <button id="mul">Multipy</button>
-    <button id="div">Divide</button>
+    <button onclick="multipy()" id="mul">Multipy</button>
+    <button onclick="division()" id="div">Divide</button>
 
     <p id="result"></p>
 
     <script>
-      const num1 = document.getElementById("num1").value;
-      const num2 = document.getElementById("num2").value;
+      const multipy = () => {
+        let a = 1;
+        let b = 2;
+
+        const num1 = document.getElementById("num1").value;
+        const num2 = document.getElementById("num2").value;
+        let result = (document.getElementById("result").innerHTML =
+          num1 * num2);
+        console.log(num1 * num2);
+      };
+
+      const division = () => {
+        const num1 = document.getElementById("num1").value;
+        const num2 = document.getElementById("num2").value;
+        let result = (document.getElementById("result").innerHTML =
+          num1 / num2);
+      };
+
       console.log(num1);
       console.log(num2);
       const results = (document.getElementById("result").innerHTML = 21);
