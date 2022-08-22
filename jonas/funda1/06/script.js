@@ -24,4 +24,4 @@ let string='Naimur'
 console.log(string);
 
 
-
+// Data Types added
