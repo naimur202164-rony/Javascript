@@ -9,3 +9,7 @@ let first_Name="Naimur Rahman D";
 // We should not start variable name with uppercase
 
 let person="Fuk boy";
+
+let job1="programer";
+
+let job2="Teacher"
