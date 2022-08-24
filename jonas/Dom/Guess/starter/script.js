@@ -10,6 +10,9 @@
 // console.log(document.querySelector('.guess').value=12);
 
 document.querySelector('.check').addEventListener('click', () => {
-  const guess = document.querySelector('.guess').value;
-  console.log(guess)
+  const guess = Number(document.querySelector('.guess').value);
+  console.log(typeof guess);
+  if (!guess) {
+    document.querySelector('.message').textContent = 'No Number';
+  }
 });
