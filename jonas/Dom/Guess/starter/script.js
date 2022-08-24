@@ -9,8 +9,7 @@
 // console.log(document.querySelector('.guess').value=12);
 // console.log(document.querySelector('.guess').value=12);
 
-
-document.querySelector('.check').addEventListener('click',()=>{
-    // console.log("Naimur Rahman")
-    console.log(document.querySelector('.guess').value)
-})
+document.querySelector('.check').addEventListener('click', () => {
+  const guess = document.querySelector('.guess').value;
+  console.log(guess)
+});
