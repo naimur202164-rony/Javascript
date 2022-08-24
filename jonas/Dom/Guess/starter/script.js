@@ -7,3 +7,4 @@ document.querySelector('.number').textContent = 12;
 document.querySelector('.score').textContent = 'j';
 
 console.log(document.querySelector('.guess').value=12);
+console.log(document.querySelector('.guess').value=12);
