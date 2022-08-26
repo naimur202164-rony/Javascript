@@ -20,6 +20,11 @@ const restaurant = {
       },
     },
   };
-  
 
   // Working with arrey dis
+
+  const arr=[2,3,4];
+
+const a=arr[0];
+const [x,y,z]=arr;
+console.log(x,y,z)
