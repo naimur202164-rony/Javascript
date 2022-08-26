@@ -27,4 +27,9 @@ const restaurant = {
 
 const a=arr[0];
 const [x,y,z]=arr;
-console.log(x,y,z)
+console.log(x,y,z);
+
+
+let name="Naimur Rahman D";
+
+console.log(name);
