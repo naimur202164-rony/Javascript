@@ -4,7 +4,6 @@ const restaurant = {
   categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
   starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
   mainMenu: ["Pizza", "Pasta", "Risotto"],
-
   openingHours: {
     thu: {
       open: 12,
@@ -23,20 +22,25 @@ const restaurant = {
   order:function(starterIndex,mainIndex){
     return [this.starterMenu[starterIndex],[this.mainMenu[mainIndex]]];
   }
+
 };
 
 // Working with arrey discription
-const arr = [2, 3, 4];
-const a = arr[0];
-const [x, y, z] = arr;
-console.log(x, y, z);
-let name = "Naimur Rahman D";
-console.log(name);
-console.log("Naimur Rahman D");
-console.log(arr);
+// const arr = [2, 3, 4];
+// const a = arr[0];
+// const [x, y, z] = arr;
+// console.log(x, y, z);
+// let name = "Naimur Rahman D";
+// console.log(name);
+// console.log("Naimur Rahman D");
+// console.log(arr);
 
-const [frist,secound]=restaurant.categories;
 
-console.log(frist,secound);
 
-console.log(restaurant.order(2,8))
+// const [frist,secound]=restaurant.categories;
+// console.log(frist,secound);
+// console.log(restaurant.order(2,8))
+
+// Working on nasted arrey
+
+const nasted=[2,4,[5,6]];
