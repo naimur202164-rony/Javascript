@@ -33,7 +33,22 @@ console.log(restaurantName,horus,tags)
 
 
 // Default Values
-const   {menu=[]}
+// const   {menu=[]}
+
+let a=111;
+let b=999;
+const obj={a:21,b:31,c:9};
+
+
+({a,b}=obj);
+
+
+// Nasted Obj
+
+const {fri}=openingHours;
+
+console.log(fri)
+console.log(a,b)
 
 
 
