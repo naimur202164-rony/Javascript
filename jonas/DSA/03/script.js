@@ -27,13 +27,13 @@ const restaurant = {
 
  
 const {name,openingHours,categories}=restaurant;
-
-
-
 console.log(name,openingHours,categories)
+const{name:restaurantName,openingHours:horus,categories:tags}=restaurant;
+console.log(restaurantName,horus,tags)
 
 
-
+// Default Values
+const   {menu=[]}
 
 
 
