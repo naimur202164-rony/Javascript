@@ -25,6 +25,27 @@ const restaurant = {
 
 };
 
+ 
+const {name,openingHours,categories}=restaurant;
+
+
+
+console.log(name,openingHours,categories)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Working with arrey discription
 // const arr = [2, 3, 4];
 // const a = arr[0];
@@ -43,4 +64,13 @@ const restaurant = {
 
 // Working on nasted arrey
 
-const nasted=[2,4,[5,6]];
+// const nasted=[2,4,[5,6]];
+
+// const [i,,j]=nasted;
+
+// console.log(i,j)
+
+
+// Working on Objects
+
+// const {name,openingHours}=restaurant;
