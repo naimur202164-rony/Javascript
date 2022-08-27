@@ -42,3 +42,17 @@ const restaurant = {
   const newMenu=[...restaurant.mainMenu,'Gnocci'];
 
   console.log(newMenu);
+
+
+  // Copy Arry;
+
+
+
+  const mainMenuCopy=[...restaurant.mainMenu];
+
+
+  // Join to arrey
+
+const main=[...restaurant.mainMenu,...restaurant.starterMenu];
+
+console.log(main)
