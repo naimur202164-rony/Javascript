@@ -1,9 +1,9 @@
 console.log("Naimur Rahman ");
 let iceCream = "chocolate";
 if (iceCream === "chocolate") {
-  alert("Yay, I love chocolate ice cream!");
+  // alert("Yay, I love chocolate ice cream!");
 } else {
-  alert("Awwww, but chocolate is my favorite…");
+  // alert("Awwww, but chocolate is my favorite…");
 }
 
 function multiplay(num1, num2) {
@@ -13,3 +13,10 @@ function multiplay(num1, num2) {
 }
 
 console.log(multiplay(10, 20));
+
+
+// Events
+
+document.querySelector('html').addEventListener('click',()=>{
+  alert("Dont toch me")
+})
