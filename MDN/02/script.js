@@ -5,3 +5,11 @@ if (iceCream === "chocolate") {
 } else {
   alert("Awwww, but chocolate is my favorite…");
 }
+
+function multiplay(num1, num2) {
+  let result = num1 * num2;
+
+  return result;
+}
+
+console.log(multiplay(10, 20));
