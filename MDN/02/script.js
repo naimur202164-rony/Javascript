@@ -21,17 +21,18 @@ document.querySelector('html').addEventListener('click',()=>{
 })
 
 
-switch (expression) {
-  case choice1:
-    run this code
-    break;
+// switch (expression) {
+//   case choice1:
+//     run this code
+//     break;
 
-  case choice2:
-    run this code instead
-    break;
+//   case choice2:
+//     run this code instead
+//     break;
 
-  // include as many cases as you like
+//   // include as many cases as you like
 
-  default:
-    actually, just run this code
-}
+//   default:
+//     actually, just run this code
+// }
+// condition ? run this code : run this code instead
