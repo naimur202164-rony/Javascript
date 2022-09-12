@@ -6,10 +6,11 @@ function alerst() {
   alert("This Is Naimur Rahman D");
 }
 
-alerst();
 const original = [1, 2, 3];
 
 
 const dobuled=original.map((x)=>{
     console.log(x)
-})
+});
+
+alert("Hello WOrld")
