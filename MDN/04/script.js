@@ -7,3 +7,9 @@ function alerst() {
 }
 
 alerst();
+const original = [1, 2, 3];
+
+
+const dobuled=original.map((x)=>{
+    console.log(x)
+})
