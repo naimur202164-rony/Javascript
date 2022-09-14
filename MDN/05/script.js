@@ -23,6 +23,8 @@ const input =prompt('Get name or age ');
 console.log(person[input]);
 
 
+let name="Naimur Rahman ";
+
 
 
 
