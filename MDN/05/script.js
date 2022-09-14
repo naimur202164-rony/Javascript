@@ -29,4 +29,9 @@ let name="Naimur Rahman ";
 //         person.name[0],
 //         person.age,
 //     );
-console.log("Naimur Rahman");
+// console.log("Naimur Rahman");
+
+
+
+let nameName="Naimur";
+console.log(nameName)
