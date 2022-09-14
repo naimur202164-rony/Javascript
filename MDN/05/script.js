@@ -19,21 +19,14 @@ const person1={
 
 }
 
-const input =prompt('Get name or age ');
-console.log(person[input]);
+// const input =prompt('Get name or age ');
+// console.log(person[input]);
 
 
 let name="Naimur Rahman ";
-
-
-
-
-
-
-
-
 
 // console.log(person.name,
 //         person.name[0],
 //         person.age,
 //     );
+console.log("Naimur Rahman");
