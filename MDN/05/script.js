@@ -12,10 +12,26 @@ const person={
         console.log(`Hi Iam ${this.name[0]}`);
     },
 };
-console.log(person.name,
 
-        person.name[0],
-        person.age,
-      
-    
-    );
+const person1={
+    name:['Bob','Smith'],
+    age:32,
+
+}
+
+const input =prompt('Get name or age ');
+console.log(person[input]);
+
+
+
+
+
+
+
+
+
+
+// console.log(person.name,
+//         person.name[0],
+//         person.age,
+//     );
