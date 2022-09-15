@@ -34,4 +34,20 @@ let name="Naimur Rahman ";
 
 
 let nameName="Naimur";
-console.log(nameName)
+
+// Hello 
+
+
+
+
+// Hello From Using Using  Select 
+
+// Hello Fontend
+console.log("Naimur Rahman");
+
+
+
+let fname="Naimur";
+let lname="rahman";
+
+console.log(fname,lname)
