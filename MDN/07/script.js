@@ -8,3 +8,8 @@ const myObject = {
 };
 
 console.log(myObject.greet());
+// Prototypes
+const myDate=new Date();
+let object=myDate;
+
+
