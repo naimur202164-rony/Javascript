@@ -9,3 +9,6 @@ walsh=new Professor("Walsh,English");
 
 
 // OOP and JavaScript
+
+
+console.log("Hello")
