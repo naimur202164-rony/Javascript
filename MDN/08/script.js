@@ -11,4 +11,8 @@ walsh=new Professor("Walsh,English");
 // OOP and JavaScript
 
 
-console.log("Hello")
+console.log("Hello");
+
+console.log(
+    "Ups"
+)
