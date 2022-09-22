@@ -39,9 +39,15 @@ if (true) {
 console.log(x + z);
 
 // Nasted Scopes
-
 const hummus = (factor) => {
   const ingredient = (amount, unit, name) => {
     let ingredientAmount = amount * factor;
+
+    if (ingredientAmount > 1) {
+      unit = unit + "s";
+    }
+    console.log(`${ingredientAmount} ${unit} ${name}`);
   };
+  console.log(ingredient(1, "can", "Chickpas"));
+  ingredient(0.25, "cup", "tahini");
 };
