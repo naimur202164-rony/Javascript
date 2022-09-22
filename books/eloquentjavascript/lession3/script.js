@@ -36,4 +36,12 @@ if (true) {
   //   ->60;
 }
 //  Y is not visiable here
-console.log(x + z );
+console.log(x + z);
+
+// Nasted Scopes
+
+const hummus = (factor) => {
+  const ingredient = (amount, unit, name) => {
+    let ingredientAmount = amount * factor;
+  };
+};
