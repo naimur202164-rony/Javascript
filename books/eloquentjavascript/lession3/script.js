@@ -13,4 +13,10 @@ const makeNoise = () => {
 };
 makeNoise();
 
-// 
+// Logger Function
+
+const power=(base,exponent)=>{
+    let result=0;
+
+    for(let count=0;count<)
+}
