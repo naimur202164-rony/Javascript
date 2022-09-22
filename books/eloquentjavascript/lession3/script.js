@@ -25,3 +25,15 @@ const power = (base, exponent) => {
 };
 
 console.log(power(2, 10));
+
+// function scope;
+
+let x = 20;
+if (true) {
+  let y = 20;
+  var z = 30;
+  console.log(x + y + z);
+  //   ->60;
+}
+//  Y is not visiable here
+console.log(x + z );
