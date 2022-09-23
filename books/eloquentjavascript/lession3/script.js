@@ -61,3 +61,5 @@ if (safeMode) {
 }
 
 // Declaration notation
+// 0172348482296
+// 01723482296
