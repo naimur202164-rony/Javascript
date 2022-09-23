@@ -51,3 +51,5 @@ const hummus = (factor) => {
   console.log(ingredient(1, "can", "Chickpas"));
   ingredient(0.25, "cup", "tahini");
 };
+
+// Functions as values
