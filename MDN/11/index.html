@@ -11,14 +11,17 @@
     <script>
       let s = "Hacker";
       let text = "";
+      let text1 = "";
+
       //   console.log(s.length);
       for (let i = 0; i < s.length; i++) {
         if (i % 2 == 0) {
-          console.log(s[i]);
-        } else {
-          console.log(s[i]);
+          text += s[i];
+        } else if (!i % 2 == 0) {
+          text1 += s[i];
         }
       }
+      console.log(text, text1);
     </script>
   </body>
 </html>
