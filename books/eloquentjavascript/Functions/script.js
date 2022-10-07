@@ -14,9 +14,6 @@
 
 // makeNoise();
 
-
-
-
 // const power = function(base, exponent) {
 //     let result = 0;
 //     for (let count = 0; count < exponent; count++) {
@@ -24,10 +21,9 @@
 //     }
 //     return result;
 //   };
-  
+
 //   console.log(power(2, 10));
 //   // → 1024
-
 
 // let x=10;
 // if(true){
@@ -35,7 +31,14 @@
 //   let z
 // }
 
+// let lanuchMissile=function(){
 
-let lanuchMissile=function(){
-  
-}
+// }
+
+const power = (base, exponent) => {
+  let result = 1;
+  for (let count = 0; count < exponent; count++) {
+    result *= base;
+  }
+  return result;
+};
