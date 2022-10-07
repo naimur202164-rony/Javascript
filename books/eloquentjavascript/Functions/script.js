@@ -42,3 +42,4 @@ const power = (base, exponent) => {
   }
   return result;
 };
+// When a arrow function does nto parenthisi it is callded arrow functions
