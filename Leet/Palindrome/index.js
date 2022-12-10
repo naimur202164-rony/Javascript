@@ -6,3 +6,6 @@ var isPalindrome = function (x) {
 };
 
 isPalindrome(121);
+console.log("Naimru Rahman D")
+
+console.log("Naimur Rahman s")
